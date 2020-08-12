@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.account {
+	 height: 100vh;
+	 width: 100%;
+	 min-height: 100vh;
+	 display: flex;
+	 overflow-y: auto;
+   background: #eee;
+}
+
+.account__wrapper {
+	margin: auto;
+	padding: 10px;
+}
+.account__card {
+	background-color: #fff;
+	margin: 30px auto auto auto;
+	padding: 50px 60px;
+	width: 500px;
+}
+.account__profile {
+	text-align: center;
+}
+.account__btns {
+	display: flex;
+	width: calc(100% + 10px);
+	margin: -10px 0 -20px -10px;
+}
+.account__btns a {
+	margin: 10px 0 20px 10px;
+	white-space: nowrap;
+}
+.account__btn {
+	width: 100%;
+	margin-right: 0;
+}
+
+.account__name {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 15px;
+	margin: 5px 0 5px 0px;
+}
+.account__sub {
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #656262;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.form-control {
+  margin: 10px 0px;
+}
+
+.userInfo {
+  width: 40px;
+  height: 40px;
+  display: -webkit-flex;
+  display: flex;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #FFF;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 15px 50px;
+  background: #eee;
+}
+
+.document-holder {
+  flex: 1;
+}
+
+
+.layoutContainer {
+	width: 320px;
+	height: 240px;
+	background-color: #DDD;
+	position:relative;
+}
+
+

@@ -1,6 +1,6 @@
-# OpenTok Background Subtraction using TensorFlow 
+# Multiplayer Posing game using Vonage Video and TensorFlow PoseNet
 
-Using TensorFlow for basic background subtraction for video calls over Vonage OpenTok
+Using combination of TensorFlow PoseNet, Vonage Video API, and Websockets to create a multiplayer "Simon Says" posing game
 
 ## Setting your OpenTok apiKey, sessionId and token
 
@@ -9,6 +9,10 @@ overview](https://tokbox.com/opentok/tutorials/create-token/).
 
 ## Running the App
 
+Create a copy of `config.js.template` file and fill with your Vonage Video credentials
+
+Rename as config.js
+
+Run `npm install` to install required modules
 Run `npm start` to start the application
-# RTCDDR
-# RTCDDR
+
